@@ -39,7 +39,7 @@ Here are links to tutorials provided on this site. If you have questions, please
 
 These tutorials will get added to regularly.
 
-    * [Getting Started with Dragon](getting_started/README.md)
+    * [Getting Started with Dragon](./getting_started/README.md)
 
 # A Little History
 
