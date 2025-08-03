@@ -28,8 +28,31 @@ While your program gets started on a particular node by Dragon, it still concept
 
 The purpose of this site then is to get you up and running Dragon and writing Dragon programs as quickly as possible. And, it will introduce you to a lot of what Dragon can do by providing you with tutorials and examples. The first tutorials show you how to set up a development environment in which you can write Dragon programs. After that we'll dive deeper into Dragon. Each tutorial will also provide an `In Depth` section that will further explain how it all works to give interested readers a better understanding of Dragon from top to bottom.
 
-For complete Dragon documentation, please see http://dragonhpc.org. That site contains API documentation, additional examples, links to the Dragon source code repository, and other discussions.
+For complete Dragon documentation, please see http://dragonhpc.org. Our main documentation site contains API documentation, additional examples, links to the Dragon source code repository, and other discussions.
 
-# Getting Started
+# Tutorials
 
-TBD.
+Here are links to tutorials provided on this site. If you have questions, please feel free to post on the discussions here. In addition, you might choose to add the Slack workspace at http://dragonhpc.slack.com where we have a growing community of users and questions and answers get regularly posted. The only drawback is that the Slack postings age out after 90 days. The discussions on this site will not age out.
+
+These tutorials will get added to regularly.
+
+    * [Getting Started with Dragon](getting_started/README.md)
+
+# A Little History
+
+Dragon started as an innovation project at Cray Supercomputing in 2019. Cray was purchased by HPE later that year and Dragon was given the chance to grow and mature under HPE management. Dragon is still actively being developed today, but has also reached a level of maturity where it is being used in both Scientific and Commercial applications. The original motivation for Dragon was several-fold.
+
+    * Create a scalable version of Python for supercomputing.
+    * Provide a multinode implementation of Python multiprocessing as an easy on-ramp and to provide multi-node support for existing multiprocessing applications and libraries.
+    * Provide cross-language support not just for Python, but also for C, C++, and possibly other languages.
+    * Solve, once and for all, the problem of multi-node communication and synchronization in multi-stage, dynamic workflows that prior to Dragon was being solved over and over again by every group that wrote such applications.
+
+That last bullet was important in bringing supercomputing to where it is today where workflows have become multi-stage and dynamic to a much larger degree with the advent of AI training and inference. Dragon solves the synchronization and communication problem in a scalable fashion and does it better than past frameworks have been able to do. In short, Dragon was originally designed to solve these problems. It was not repurposed from some other earlier project. This distinct and thoughtful design of Dragon means it has unmatched performance and capabilities in the world of supercomputing.
+
+# The Team
+
+Dragon has been implemented by a small, highly skilled team of architects and programmers. Numbering around a dozen, the team includes experts with experience from the areas of traditional supercomputing, MPI and scientific libraries, Data Science and AI, and Computer Science. The varied backgrounds of the members of the team has contributed to a robust design and implementation of many fundamental, core features and unique vertical uses of Dragon that address specific application areas.
+
+It is because our team works so well together that we have been able to move quickly while also moving toward a very stable base on which applications using Dragon are being developed. We hope you might be interested in using Dragon as well!
+
+[Members of the Dragon team can be found here](https://github.com/DragonHPC/dragon/blob/main/README.md#credits).
