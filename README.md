@@ -45,11 +45,11 @@ These tutorials will get added to regularly.
 
 Dragon started as an innovation project at Cray Supercomputing in 2019. Cray was purchased by HPE later that year and Dragon was given the chance to grow and mature under HPE management. Dragon is still actively being developed today, but has also reached a level of maturity where it is being used in both Scientific and Commercial applications. The original motivation for Dragon was several-fold.
 
-    * Create a scalable version of Python for supercomputing.
-    * Provide a multinode implementation of Python multiprocessing as an easy on-ramp
-    * Provide multi-node support for existing multiprocessing applications and libraries.
-    * Provide cross-language support not just for Python, but also for C, C++, and possibly other languages.
-    * Solve, once and for all, the problem of multi-node communication and synchronization in multi-stage, dynamic workflows that prior to Dragon was being solved over and over again by every group that wrote such applications.
+* Create a scalable version of Python for supercomputing.
+* Provide a multinode implementation of Python multiprocessing as an easy on-ramp
+* Provide multi-node support for existing multiprocessing applications and libraries.
+* Provide cross-language support not just for Python, but also for C, C++, and possibly other languages.
+* Solve, once and for all, the problem of multi-node communication and synchronization in multi-stage, dynamic workflows that prior to Dragon was being solved over and over again by every group that wrote such applications.
 
 That last bullet was important in bringing supercomputing to where it is today where workflows are becoming multi-stage and dynamic to a much larger degree with the advent of AI training and inference. Dragon solves the synchronization and communication problem in a scalable fashion and does it better than past frameworks have been able to do. In short, Dragon was originally designed to solve these problems. It was not repurposed from some other earlier project. This distinct and thoughtful design of Dragon means it has unmatched performance and capabilities in the world of supercomputing.
 
