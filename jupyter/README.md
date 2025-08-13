@@ -128,7 +128,7 @@ HSTA binary (/mnt/nfs_home/klee/dragon/src/dragon/bin/dragon-hsta) not available
 [I 2025-08-13 00:00:42.739 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
 ```
 
-When you see this, you want to copy the line the line that looks like this into
+From this output you want to copy the line that looks like this into
 your browser address bar.
 
 ```bash
