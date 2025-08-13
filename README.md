@@ -42,6 +42,10 @@ These tutorials will get added to regularly.
 * [Getting Started with Dragon](/gettingstarted/README.md)
 * [Running a Jupyter Notebook in Dragon](/jupyter/README.md)
 
+# Support
+
+Please feel free to reach out to us on the (DragonHPC Slack Channel)[https://dragonhpc.github.io/dragon/doc/_build/html/uses/jupyter.html] or contact us through the Discussions or Issues link on our (DragonHPC Repo)[https://github.com/DragonHPC/dragon]. We are glad to help and ready to streamline your distributed computing development efforts!  
+
 # A Little History
 
 Dragon started as an innovation project at Cray Supercomputing in 2019. Cray was purchased by HPE later that year and Dragon was given the chance to grow and mature under HPE management. Dragon is still actively being developed today, but has also reached a level of maturity where it is being used in both Scientific and Commercial applications. The original motivation for Dragon was several-fold.

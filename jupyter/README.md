@@ -50,6 +50,18 @@ when you have a workload manager installed on your cluster. You will see some
 text printed to the terminal window. You can follow the directions below on your
 first Jupyter Notebook with Dragon after you have run this command.
 
+If you have a production environment, it may be the case you don't have direct
+http access to the compute node where the Jupyter Server was started. If that's
+the case, the consult [these
+directions](https://dragonhpc.github.io/dragon/doc/_build/html/uses/jupyter.html)
+to see how to set up a tunnel to the compute node where the server is running.
+
+If you need a more polished deployment of Jupyter, we at HPE can help with that!
+We have already done this as a prototype and can help you build an on-prem
+solution. You can reach out to us on our [slack
+channel](http://dragonhpc.slack.com) via one of the channels or via a direct
+message. We are happy to help!
+
 ## A Cluster without a Workload Manager
 
 Otherwise, if you have a cluster without a workload manager you will want to do
