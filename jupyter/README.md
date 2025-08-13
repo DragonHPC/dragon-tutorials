@@ -16,7 +16,7 @@ use as many of these nodes as you like. You can get the same work done in a few
 minutes. 
 
 A recent (summarized) quote from a user of Dragon, "I think I am falling in love
-with Dragon! I was analyzing logs files and it was taking forever. With Dragon I
+with Dragon! I was analyzing log files and it was taking forever. With Dragon I
 wrote a multiprocessing program and turned it loose on the problem and it was
 done in minutes!". 
 
