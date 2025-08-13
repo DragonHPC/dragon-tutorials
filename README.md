@@ -44,7 +44,7 @@ These tutorials will get added to regularly.
 
 # Support
 
-Please feel free to reach out to us on the (DragonHPC Slack Channel)[https://dragonhpc.github.io/dragon/doc/_build/html/uses/jupyter.html] or contact us through the Discussions or Issues link on our (DragonHPC Repo)[https://github.com/DragonHPC/dragon]. We are glad to help and ready to streamline your distributed computing development efforts!  
+Please feel free to reach out to us on the [DragonHPC Slack Channel](https://dragonhpc.github.io/dragon/doc/_build/html/uses/jupyter.html) or contact us through the Discussions or Issues link on our [DragonHPC Repo](https://github.com/DragonHPC/dragon). We are glad to help and ready to streamline your distributed computing development efforts!  
 
 # A Little History
 
