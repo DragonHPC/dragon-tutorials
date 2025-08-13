@@ -40,6 +40,7 @@ Here are links to tutorials provided on this site. If you have questions, please
 These tutorials will get added to regularly.
 
 * [Getting Started with Dragon](/gettingstarted/README.md)
+* [Running a Jupyter Notebook in Dragon](/jupyter/README.md)
 
 # A Little History
 
