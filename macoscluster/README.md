@@ -532,9 +532,10 @@ for a long simulation that produces no output while it runs.
 
 ## Step 6: Python Installation
 
-Install Python from either a Mac OS install file or with Brew. The uv tool is
-another very useful means for installing Python. You can use this command or use
-Brew to install it, your choice.
+You must do these steps on each node in your cluster. Install Python from a Mac
+OS install file, with Brew, or use `uv`. The `uv` tool is a very useful means
+for installing Python. You can use this command or use Brew to install `uv`,
+your choice.
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -544,22 +545,6 @@ After installing it, you can install Python in one step.
 
 ```bash
 uv install python 3.12
-```
-
-You can install other versions as well. Then you create a virtual environment
-and activate it.
-
-```bash
-python3 -m venv env3.12
-. env3.12/bin/activate
-```
-
-Finally, you can install Dragon. Dragon can be installed alone or with other
-packages. We have Dragon set up to automatically include a common set of
-packages for development and test.
-
-```bash
-pip install dragonhpc[dev,test]
 ```
 
 Mac OS sandboxes applications far more aggressively than Linux, and the Python
@@ -762,14 +747,20 @@ not many to many with other network interfaces.
 After making sure every node has Python installed and permissions have been
 granted for network and disk acess, create one virtual environment **on the
 shared filesystem**, so every node runs the same interpreter and the same
-packages from the same path:
+packages from the same path.
 
 ```bash
 cd /Volumes/Shared
 python3 -m venv env3.12
 source env3.12/bin/activate
 pip install --upgrade pip
-pip install dragonhpc
+```
+
+Then you can install Dragon in the virtual environment. We have Dragon set up to
+automatically include a common set of packages for development and test.
+
+```bash
+pip install dragonhpc[dev,test]
 ```
 
 Verify on every node:
@@ -780,11 +771,17 @@ source env3.12/bin/activate
 pip show dragonhpc  # Version: 0.15.0
 ```
 
-Create a hostfile listing the nodes by their network names. For **Thunderbolt**
-use names like these:
+You don't need to activate the environment on every node to run Dragon. Just
+activate it on your head node (whichever node you choose to start your Dragon
+program on). You must activate the environment on your head node before running
+Dragon programs so that it will find the `dragon` command.
+
+Now, create a `hostfile` listing the nodes by their network names. For
+**Thunderbolt** use names like these:
 
 ```bash
-printf 'studio-tb\nmax-tb\n' > /Volumes/Shared/hostfile
+studio-tb
+max-tb
 ```
 
 Create a small test program, used by both of the next two steps. Save it as
