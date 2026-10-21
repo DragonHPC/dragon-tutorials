@@ -530,7 +530,37 @@ sudo launchctl kickstart -k system/com.openssh.sshd
 That combination tolerates an hour of silence before giving up, which is enough
 for a long simulation that produces no output while it runs.
 
-## Step 6: Grant Python network and disk permission
+## Step 6: Python Installation
+
+Install Python from either a Mac OS install file or with Brew. The uv tool is
+another very useful means for installing Python. You can use this command or use
+Brew to install it, your choice.
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+After installing it, you can install Python in one step.
+
+```bash
+uv install python 3.12
+```
+
+You can install other versions as well. Then you create a virtual environment
+and activate it.
+
+```bash
+python3 -m venv env3.12
+. env3.12/bin/activate
+```
+
+Finally, you can install Dragon. Dragon can be installed alone or with other
+packages. We have Dragon set up to automatically include a common set of
+packages for development and test.
+
+```bash
+pip install dragonhpc[dev,test]
+```
 
 Mac OS sandboxes applications far more aggressively than Linux, and the Python
 interpreter is just another application as far as the OS is concerned. Two
