@@ -91,6 +91,7 @@ These tutorials will get added to regularly.
 * [Getting Started with Dragon](/gettingstarted/README.md)
 * [Running a Jupyter Notebook in Dragon](/jupyter/README.md)
 * [Setting up Dragon on a Mac OS Cluster](/macoscluster/README.md)
+* [CFDs with Dragon and Claude](/cfd/README.md)
 
 # Support
 
