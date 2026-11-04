@@ -26,7 +26,7 @@ of the experiment and compares the performance and provides the results of the
 two CFD implementations.
 
 While Claude worked great to write the code with the direction I provided, if I
-made the scope of my requests a little to wide (which I did at times to test
+made the scope of my requests a little too wide (which I did at times to test
 it), Claude made dumb mistakes too. Without proper guidance, AI agents will make
 bold, assertive claims about what they have done, even when they are completely
 wrong. In this blog post, two implementations were created using different
